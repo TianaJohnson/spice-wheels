@@ -7,6 +7,7 @@ class Header extends Component {
     render() {
         return (
             <div className="header-main">
+                <h3 className="header-contact-number">(612) 444-6125</h3>
                 <h1 className="header-title"> Spice Wheels </h1>
                 <br/>
                 {/* link to home, about, custom, store, contact */}
