@@ -1,5 +1,11 @@
 import Header from './Header/Header';
 import React, { Component } from 'react';
+import {
+  HashRouter as Router,
+  Route,
+  Redirect,
+  Switch,
+} from 'react-router-dom';
 import './App.css';
 
 function App() {
