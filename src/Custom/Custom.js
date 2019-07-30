@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './../Header/Header';
+import Footer from './../Footer/Footer';
 
 class Custom extends Component {
 
@@ -8,6 +9,7 @@ class Custom extends Component {
             <div>
                 <Header/>
                 <p>Custom order page.</p>
+                <Footer/>
             </div>
 
         )
