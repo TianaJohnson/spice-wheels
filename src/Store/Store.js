@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import Header from './../Header/Header';
 
-class About extends Component {
+class Store extends Component {
 
     render() {
         return (
             <div>
-                <p>About page</p>
+                <p>Store.</p>
             </div>
+
         )
     }
 
 }
 
-export default About;
+export default Store;
