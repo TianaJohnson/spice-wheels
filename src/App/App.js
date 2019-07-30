@@ -4,7 +4,6 @@ import Home from './../Home/Home';
 import About from './../About/About';
 import Contact from './../Contact/Contact';
 import Custom from './../Custom/Custom';
-// import Header from './../Header/Header';
 import Store from './../Store/Store';
 
 import {
