@@ -1,4 +1,8 @@
 .footer-main {
-    background-color: greenyellow;
-    height: 50px;
+    background-color:rgb(116, 187, 187);
+    height: 100px;
+}
+.footer-text {
+    margin:30px;
+    
 }

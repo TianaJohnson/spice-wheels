@@ -31,9 +31,11 @@ class Header extends Component {
                     <Link className="nav-link" to="/Custom">
                         Custom
                     </Link>
+                    
                 </div>
                 {/* link to home, about, custom, store, contact */}
 
+            <br/>
 
             </div>
         )

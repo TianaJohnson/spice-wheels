@@ -7,7 +7,8 @@ class Footer extends Component {
     render() {
         return (
             <div className="footer-main">
-                <p>Spice Wheels LLC.</p>
+                <br/>
+                <p className="footer-text">Spice Wheels LLC.</p>
             </div>
 
         )
