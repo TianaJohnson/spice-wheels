@@ -28,8 +28,12 @@ class Contact extends Component {
                             <Input type="text" name="l-name" id="lastName" placeholder="Last Name" />
                         </FormGroup>
                         <FormGroup>
-                            <Label for="exampleEmail">Email: </Label>
-                            <Input type="email" name="email" id="exampleEmail" placeholder="with a placeholder" />
+                            <Label>Email: </Label>
+                            <Input type="email" name="email" id="emailAddress" placeholder="" />
+                        </FormGroup>
+                        <FormGroup>
+                            <Label>Phone Number: </Label>
+                            <Input name="phoneNumber" id="phoneNumber" placeholder="" />
                         </FormGroup>
                         <input type="submit" value="Submit" />
                     </form>
