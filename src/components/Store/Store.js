@@ -9,7 +9,7 @@ class Store extends Component {
         return (
             <div>
                 <Header/>
-                <p>Store.</p>
+                <p>store</p>
                 <Footer/>
             </div>
 

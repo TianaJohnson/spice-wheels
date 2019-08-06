@@ -1,10 +1,9 @@
-
-import React from 'react';
-import Home from './../Home/Home';
+import React, {Component} from 'react';
+import Home from '../Home/Home';
 import About from './../About/About';
-import Contact from './../Contact/Contact';
-import Custom from './../Custom/Custom';
-import Store from './../Store/Store';
+import Contact from '../Contact/Contact';
+import Custom from '../Custom/Custom';
+import Store from '../Store/Store';
 
 import {
   HashRouter as Router,
