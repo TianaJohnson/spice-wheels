@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import axios from 'axios';
 import Header from './../Header/Header';
 import Footer from './../Footer/Footer';
 import './contact.css';
@@ -27,8 +28,18 @@ class Contact extends Component {
                     <Form>
                         <FormGroup>
                             <Label>Name: </Label>
-                            <Input type="text" name="f-name" id="firstName" placeholder="First Name" />
-                            <Input type="text" name="l-name" id="lastName" placeholder="Last Name" />
+                            <Input type="text"
+                                   name="fname"
+                                   id="firstName" 
+                                   placeholder="First Name" 
+                                   value={this.state.fName}
+                                   onChange={this.handelChange}/>
+                            <Input type="text"
+                                   name="lname"
+                                   id="lastName"
+                                   placeholder="Last Name"
+                                   value={this.state.lName}
+                                   onChange={this.handleChange} />
                         </FormGroup>
                         <FormGroup>
                             <Label>Email: </Label>
