@@ -9,18 +9,20 @@
     "nodemailer": "^6.3.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
     "reactstrap": "^8.0.1",
+    "redux": "^4.0.4",
     "save": "^2.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "eject": "react-scripts eject", 
-    "server": "nodemon index.js",
-    "client": "npm run start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "nodemon --watch server server/server.js",
+    "client": "react-scripts start"
   },
   "eslintConfig": {
     "extends": "react-app"
