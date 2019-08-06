@@ -9,9 +9,12 @@ class Contact extends Component {
     constructor(props) {
         super(props);
         this.state = {
-
+          fName: "",
+          lName: '',
+          phoneNumber: '',
+          emailAddress: '',
         }
-    }
+      }
 
     render() {
         return (
@@ -21,7 +24,7 @@ class Contact extends Component {
                 <div className="contact-desc">
                     <h2>Contact us.</h2>
                     <p>Whatever your question, I’m here to help! I think nothing of spending up to an hour researching my customers needs to help them design their dream wheels. Have a question about a build? What to know more about what we do? Want to schedule an appointment to talk about your wheels in person? You’re in the right place!</p>
-                    <form>
+                    <Form>
                         <FormGroup>
                             <Label>Name: </Label>
                             <Input type="text" name="f-name" id="firstName" placeholder="First Name" />
@@ -35,8 +38,8 @@ class Contact extends Component {
                             <Label>Phone Number: </Label>
                             <Input name="phoneNumber" id="phoneNumber" placeholder="" />
                         </FormGroup>
-                        <input type="submit" value="Submit" />
-                    </form>
+                        <Button>Submit</Button>
+                    </Form>
                 </div>
                 <Footer />
             </div>
