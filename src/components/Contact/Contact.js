@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
+//import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 //import axios from 'axios';
 import Header from './../Header/Header';
 import Footer from './../Footer/Footer';
@@ -17,10 +17,10 @@ class Contact extends Component {
         }
     }
 
-    handleChange = e  => {
-        this.setState({[e.target.name]: e.target.value})
+    // handleChange = e  => {
+    //     this.setState({[e.target.name]: e.target.value})
     
-      }
+    //   }
     render() {
         return (
             <div>
@@ -29,7 +29,7 @@ class Contact extends Component {
                 <div className="contact-desc">
                     <h2>Contact us.</h2>
                     <p>Whatever your question, I’m here to help! I think nothing of spending up to an hour researching my customers needs to help them design their dream wheels. Have a question about a build? What to know more about what we do? Want to schedule an appointment to talk about your wheels in person? You’re in the right place!</p>
-                    <Form id="contact-form">
+                    {/* <Form id="contact-form">
                         <FormGroup>
                             <Label>Name: </Label>
                             <Input type="text"
@@ -54,7 +54,7 @@ class Contact extends Component {
                             <Input name="phoneNumber" id="phoneNumber" placeholder="" />
                         </FormGroup>
                         <Button>Submit</Button>
-                    </Form>
+                    </Form> */}
                 </div>
                 <Footer />
             </div>

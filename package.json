@@ -7,6 +7,8 @@
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "express-middleware": "^3.4.1",
+    "express-session": "^1.16.2",
+    "loader": "^2.1.1",
     "nodemailer": "^6.3.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
